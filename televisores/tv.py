@@ -45,7 +45,7 @@ class TV:
         self.control=control
 
     @staticmethod
-    def setNumTV(self, numTV):
+    def setNumTV(numTV):
         TV.numTV=numTV
     
     def turnOn(self):
