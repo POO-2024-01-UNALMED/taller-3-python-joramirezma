@@ -24,8 +24,9 @@ class TV:
     def getControl(self):
         return self.control
     
-    def getNumTV(self):
-        return TV.numTV
+    @classmethod
+    def getNumTV(cls):
+        return cls.numTV
 
     def setMarca(self, marca):
         self._marca=marca
