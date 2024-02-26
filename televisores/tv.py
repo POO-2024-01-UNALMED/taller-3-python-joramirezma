@@ -44,7 +44,6 @@ class TV:
     def setControl(self, control):
         self.control=control
 
-    @staticmethod
     def setNumTV(numTV):
         TV.numTV=numTV
     
