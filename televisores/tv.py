@@ -6,7 +6,7 @@ class TV:
         self.canal=1
         self.volumen=1
         self._precio=500
-        self.control=None
+        self.control
         TV.numTV += 1
 
     def getMarca(self):
