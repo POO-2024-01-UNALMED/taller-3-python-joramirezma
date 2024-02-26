@@ -44,8 +44,9 @@ class TV:
     def setControl(self, control):
         self.control=control
 
-    def setNumTV(self, numTv):
-        TV.numTV=numTv
+    classmethod
+    def setNumTV(cls, numTv):
+        cls.numTV=numTv
     
     def turnOn(self):
         self.estado=True
